@@ -12,7 +12,7 @@ setup(
     name='conda_dev',
     packages=find_packages(),
 #    package_dir={'src/': 'conda-dev'},
-    version="0.0.1",
+    version="0.0.2",
     description="Install conda package dependencies into a conda environment",
     license="MIT License",
     long_description=readme,

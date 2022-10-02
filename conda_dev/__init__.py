@@ -54,7 +54,7 @@ def create_env(env_name):
     except conda.exceptions.PackagesNotFoundError:
         # this happens when the env is already empty
         pass
-    print("Creating env at: %s" % env_location)
+    print(f"Creating env: {env_name}")
     conda_api(
         conda.cli.python_api.Commands.CREATE,
         ['--yes', '-n', env_name],
