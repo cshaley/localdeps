@@ -1,5 +1,5 @@
 [project]
-name = "conda-dev"
+name = "conda_dev"
 version = "0.0.1"
 authors = [
   { name="Charlie Haley" },
@@ -16,10 +16,3 @@ classifiers = [
 [project.urls]
 "Homepage" = "https://github.com/cshaley/conda-dev"
 "Bug Tracker" = "https://github.com/cshaley/conda-dev/issues"
-
-[tool.poetry]
-
-[tool.poetry.dependencies]
-python = "^3.4"
-conda = "^4.13"
-conda-build = "^3.22"

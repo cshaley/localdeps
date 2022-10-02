@@ -14,3 +14,10 @@ pip install -e . --no-deps --no-build-isolation
 ```
 
 Now, I only need one copy of the dependencies of my conda package (meta.yaml), and I can develop the code and have changes instantly take effect in the active environment.
+
+
+## Installation
+
+`conda install conda-dev -c conda-forge`
+
+Note: This is not available via `pip install` because it depends on conda and conda-build, which are not available via pip.
