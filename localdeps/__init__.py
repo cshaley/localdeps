@@ -84,7 +84,7 @@ def main():
     parser.add_argument(
         '--conda_dir',
         type=str,
-        default=os.path.join(CUR_DIR, '..', '.conda'),
+        default=os.path.join(CUR_DIR, '..', 'conda.recipe'),
         help='Path to the conda recipe',
     )
     parser.add_argument(

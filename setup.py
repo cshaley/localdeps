@@ -9,7 +9,7 @@ with open(path.join(here, "README.md"), encoding="utf-8") as f:
 
 
 setup(
-    name='conda_dev',
+    name='localdeps',
     packages=find_packages(),
 #    package_dir={'src/': 'conda-dev'},
     version="0.0.2",
@@ -17,12 +17,12 @@ setup(
     license="MIT License",
     long_description=readme,
     long_description_content_type="text/markdown",
-    url="https://github.com/cshaley/conda-dev",
+    url="https://github.com/cshaley/localdeps",
     python_requires=">=3.4",
     include_package_data=True,
     install_requires=[],
     author="@cshaley on github",
-    entry_points={"console_scripts": ["conda-dev = conda_dev:main"]},
+    entry_points={"console_scripts": ["localdeps = localdeps:main"]},
     keywords="package dependency local development",
     classifiers=[
         "Programming Language :: Python :: 3.7",

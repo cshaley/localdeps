@@ -1,7 +1,7 @@
 from datetime import datetime
 
 import conda
-from conda_dev import conda_api, create_env, is_conda_environment, main, quote_package
+from localdeps import conda_api, create_env, is_conda_environment, main, quote_package
 
 
 def test_quote_package():
